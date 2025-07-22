@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #212121;
+  padding: 10px 20px;
+}
+
+.navbar h1 {
+  color: #f1f1f1;
+  font-size: 24px;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px; /* Increased gap for better visibility */
+}
+
+.nav-item {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: 18px; /* Adjusted font size */
+  padding: 5px 10px; /* Added padding for better clickability */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-item:hover {
+  background-color: #333;
+  border-radius: 5px;
+}

@@ -1,0 +1,139 @@
+/* Global App Styles */
+.app-container {
+  text-align: center;
+  background: linear-gradient(135deg, #bc9b9c, #fad0c4);
+  min-height: 100vh;
+  padding: 0; /* Removed extra padding */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Header */
+.app-header {
+  margin-bottom: 10px; /* Adjusted for better spacing */
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  animation: slideDown 1.2s ease-in-out;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 0;
+  background: rgba(0, 0, 0, 0.7);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Navbar Buttons */
+.nav-button {
+  padding: 10px 20px;
+  border: none;
+  background: #a9aea9;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-button:hover {
+  background: #388e3c;
+  transform: scale(1.1);
+}
+
+/* Page Container */
+.page-container {
+  text-align: center;
+  padding: 40px 20px; /* Adjusted for spacing */
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh; /* Ensures proper filling of the screen */
+}
+
+/* Background Images for Pages */
+.login-page,
+.register-page,
+.admin-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.login-page {
+  background-image: url('D:\Soc-Final_Project\full-stack_project\src\top-view-dark-office-desk-with-headphone-blank-screen-smart-phone-pen-notebook-copy-space-mock-up_1296497-5180.jpg');
+}
+
+.register-page {
+  background-image: url('D:\Soc-Final_Project\full-stack_project\src\top-view-dark-office-desk-with-headphone-blank-screen-smart-phone-pen-notebook-copy-space-mock-up_1296497-5180.jpg');
+}
+
+.admin-page {
+  background-image: url('D:\Soc-Final_Project\full-stack_project\src\top-view-dark-office-desk-with-headphone-blank-screen-smart-phone-pen-notebook-copy-space-mock-up_1296497-5180.jpg');
+}
+
+/* Frosted Glass Effect for Content */
+.frosted-glass {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .frosted-glass {
+    width: 90%;
+    padding: 20px;
+  }
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .page-container {
+    padding: 20px;
+  }
+}

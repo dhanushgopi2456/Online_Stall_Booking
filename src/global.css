@@ -1,0 +1,43 @@
+
+.app-container {
+  text-align: center;
+  background: linear-gradient(135deg, #bc9b9c, #fad0c4);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app-header {
+  margin-bottom: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  border: none;
+  background: #4caf50;
+  color: rgb(34, 192, 87);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.page-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.login-page {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.register-page {
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+}
+
+.admin-page {
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+}
