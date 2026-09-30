@@ -1,344 +1,564 @@
-# 🏆 My Certifications & Learning Portfolio
+# 🏬 Online Stall Booking System
 
 <p align="center">
-  <strong>Continuous Learning • Technical Certifications • Hands-On Practice</strong>
+  <strong>Smart Stall Management & Event Booking Platform</strong>
 </p>
 
 <p align="center">
-  A curated collection of my professional certifications, virtual internships,
-  technical training, workshops, and hands-on learning projects.
+  A full-stack web application designed to simplify stall booking and management for exhibitions, trade fairs, events, and business expos.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Certifications-Professional-blue?style=for-the-badge" alt="Certifications" />
-  <img src="https://img.shields.io/badge/AI%20%26%20ML-Learning-orange?style=for-the-badge" alt="AI ML" />
-  <img src="https://img.shields.io/badge/Data%20Science-Practice-green?style=for-the-badge" alt="Data Science" />
-  <img src="https://img.shields.io/badge/Cloud%20%26%20Security-Skills-purple?style=for-the-badge" alt="Cloud Security" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Java-Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Git-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</p>
+
+<p align="center">
+  <a href="#-overview">Overview</a> •
+  <a href="#-features">Features</a> •
+  <a href="#-user-workflow">Workflow</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
+  <a href="#-installation">Installation</a> •
+  <a href="#-future-enhancements">Roadmap</a>
 </p>
 
 ---
 
-## 👨‍💻 About This Repository
+## 🌟 Overview
 
-Welcome to my **Certifications & Learning Portfolio**.
+The **Online Stall Booking System** is a full-stack event management platform that makes it easier for exhibitors and event organizers to manage stall reservations digitally.
 
-This repository contains certificates, internship credentials, workshop materials, and hands-on practice completed throughout my software engineering journey.
+Instead of relying on manual registration, spreadsheets, phone calls, or paper-based booking, the platform provides a centralized system where users can:
 
-It also includes supporting notebooks and learning resources covering areas such as:
+* 👤 Register and log in
+* 🏬 Explore available stalls
+* 🔎 Check stall availability
+* 📍 Select stalls based on location
+* 📅 Book preferred stalls
+* 📊 Track booking information
 
-* 🤖 Artificial Intelligence & Machine Learning
-* 📊 Data Analysis & Data Science
-* 🐍 Python Programming
-* ☁️ Cloud Computing
-* 🔐 Cybersecurity
-* 🧠 Data Structures & Algorithms
-* 📈 Machine Learning Algorithms
-* 📉 Data Visualization
-
-> **Learning by doing, building by learning. 🚀**
+Administrators can manage stalls, users, and bookings through a dedicated management interface.
 
 ---
 
-# 🏅 Professional Certifications
+# 🎯 Problem Statement
 
-## ☁️ Microsoft Azure AI Fundamentals
-
-**Certification:** Microsoft Azure AI Fundamentals — AI-900
-
-Focus areas include:
-
-* Artificial Intelligence fundamentals
-* Machine Learning concepts
-* Computer Vision
-* Natural Language Processing
-* Generative AI concepts
-* Azure AI services
-
----
-
-## 🔐 Palo Alto Cybersecurity Virtual Internship
-
-A hands-on virtual internship focused on cybersecurity concepts and practical security awareness.
-
-Key areas:
-
-* Cybersecurity fundamentals
-* Network security
-* Threat awareness
-* Security practices
-* Enterprise security concepts
-
----
-
-## ⚡ Energy Literacy Training
-
-**Energy Swaraj Foundation**
-
-Training focused on:
-
-* Energy awareness
-* Energy consumption
-* Sustainability
-* Climate-conscious practices
-* Energy literacy
-
----
-
-## 🤖 AI-ML Virtual Internship
-
-**Google + AICTE / EduSkills**
-
-Key learning areas:
-
-* Artificial Intelligence
-* Machine Learning
-* ML fundamentals
-* Data preprocessing
-* Model development
-* Practical AI/ML concepts
-
----
-
-## ☕ Data Structures & Algorithms Using Java
-
-**NPTEL**
-
-Focus areas:
-
-* Data Structures
-* Algorithms
-* Complexity analysis
-* Searching
-* Sorting
-* Trees
-* Graphs
-* Algorithmic problem solving
-* Java programming
-
----
-
-## 🌐 Web-Based Technology & Multimedia Applications
-
-**NPTEL**
-
-Covered areas include:
-
-* Web technologies
-* Internet fundamentals
-* Multimedia applications
-* Web-based systems
-* Digital media concepts
-
----
-
-# 📚 Technical Learning & Practice
-
-This repository is not limited to certificates.
-
-It also contains practical learning material and notebooks demonstrating hands-on work.
-
-### 🐍 Python
+Traditional stall booking processes can involve:
 
 ```text
-Python
- ├── Fundamentals
- ├── NumPy
- ├── Pandas
- ├── Matplotlib
- ├── Seaborn
- └── Data Analysis
+Manual Registration
+        ↓
+Phone / Email Communication
+        ↓
+Checking Availability
+        ↓
+Manual Allocation
+        ↓
+Booking Confirmation
+```
+
+This can make it difficult to maintain accurate availability and manage multiple bookings.
+
+The Online Stall Booking System digitizes this workflow:
+
+```text
+User Registration
+        ↓
+Browse Stalls
+        ↓
+Check Availability
+        ↓
+Select Stall
+        ↓
+Book Stall
+        ↓
+Booking Management
 ```
 
 ---
 
-### 📊 Data Analysis
+# ✨ Features
 
-Hands-on practice includes:
+## 👥 User Features
 
-* NumPy
-* Pandas
-* Data cleaning
-* Data manipulation
-* Exploratory Data Analysis
-* Visualization
-* Statistical analysis
+### 🔐 User Registration & Login
 
----
-
-### 📈 Machine Learning
-
-Practical learning includes algorithms such as:
-
-* Linear Regression
-* Logistic Regression
-* Decision Trees
-* Random Forest
-* K-Means
-* DBSCAN
-* Naive Bayes
-* PCA
-* Apriori
-
----
-
-# 🧪 Hands-On Notebooks
-
-The repository contains practical notebooks and learning exercises.
-
-| Notebook / Resource                | Area                           |
-| ---------------------------------- | ------------------------------ |
-| `Day1DA.ipynb`                     | Data Analysis                  |
-| `Data_Day2_Numpy.ipynb`            | NumPy                          |
-| `Day2_DA_Plotting.ipynb`           | Data Visualization             |
-| `DAY-3_pandas.ipynb`               | Pandas                         |
-| `DAY5_DA_LINEAR_REGRESSION.ipynb`  | Linear Regression              |
-| `DAY5_Weather_API.ipynb.txt`       | API / Data Collection          |
-| `DAY6_DA_DT&RF.ipynb`              | Decision Trees & Random Forest |
-| `BrainTumor_DA.ipynb`              | Data Analysis / ML             |
-| `Data Structure and Algorithms...` | DSA                            |
-
----
-
-# 🧠 Learning Journey
+Users can create accounts and securely access the stall booking system.
 
 ```text
-                 🎓 Certifications
-                        │
-                        ▼
-               📚 Technical Learning
-                        │
-                        ▼
-                💻 Hands-On Practice
-                        │
-                        ▼
-               🧪 Projects & Experiments
-                        │
-                        ▼
-                 🚀 Software Career
-```
-
-My goal is to continuously combine **certification-based learning with practical implementation**.
-
----
-
-# 🛠️ Technical Areas
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square" />
-<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square" />
-
-</p>
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat-square" />
-<img src="https://img.shields.io/badge/Artificial%20Intelligence-8E44AD?style=flat-square" />
-<img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
-<img src="https://img.shields.io/badge/Cybersecurity-222222?style=flat-square&logo=paloalto-networks&logoColor=white" />
-<img src="https://img.shields.io/badge/DSA-00599C?style=flat-square" />
-
-</p>
-
----
-
-# 📂 Repository Organization
-
-```text
-My_Certifications/
-│
-├── 🏆 Certifications
-│   ├── Azure AI Fundamentals
-│   ├── Cybersecurity Internship
-│   ├── AI-ML Internship
-│   ├── Energy Literacy
-│   └── NPTEL Certifications
-│
-├── 🧠 Data Analysis
-│   ├── Day1DA.ipynb
-│   ├── Data_Day2_Numpy.ipynb
-│   ├── Day2_DA_Plotting.ipynb
-│   ├── DAY-3_pandas.ipynb
-│   └── ...
-│
-├── 🤖 Machine Learning
-│   ├── Linear Regression
-│   ├── Decision Trees
-│   ├── Random Forest
-│   └── Brain Tumor Analysis
-│
-└── 📚 Learning Resources
-    ├── Assignments
-    ├── API Exercises
-    └── Practice Material
+Register
+   ↓
+Login
+   ↓
+Browse Available Stalls
+   ↓
+Book Stall
 ```
 
 ---
 
-# 📊 Skill Development
+### 🏬 Browse Available Stalls
 
-| Domain          | Learning Focus                    |
-| --------------- | --------------------------------- |
-| 🤖 AI / ML      | Machine Learning, AI Fundamentals |
-| 📊 Data Science | Pandas, NumPy, Visualization      |
-| 🐍 Python       | Data Analysis & ML Development    |
-| ☕ Java          | Data Structures & Algorithms      |
-| ☁️ Cloud        | Microsoft Azure Fundamentals      |
-| 🔐 Security     | Cybersecurity Fundamentals        |
-| 🌐 Web          | Web Technologies                  |
-| 🧮 Algorithms   | DSA & Problem Solving             |
+Users can view available stalls and choose a suitable option based on availability and location.
+
+Each stall can represent information such as:
+
+* Stall number
+* Location
+* Availability
+* Booking status
 
 ---
 
-# 🎯 Certification Goals
+### 📍 Location-Based Selection
 
-I'm continuously working toward expanding my knowledge in:
+Users can select stalls based on their location within the event or exhibition layout.
 
-* 🚀 Full-Stack Development
-* ☁️ Cloud Computing
-* 🤖 Artificial Intelligence
-* 📊 Data Science
-* 🔐 Cybersecurity
-* 🧠 Advanced Algorithms
-* 🏗️ Software Engineering
+This makes it easier to identify preferred positions.
 
 ---
 
-# 📈 Continuous Learning
+### 📅 Stall Booking
+
+Users can select an available stall and submit a booking request.
+
+The system helps prevent users from selecting unavailable stalls.
+
+---
+
+### 📱 Responsive Interface
+
+The application is designed to provide a usable experience across:
 
 ```text
-Learn
-  ↓
-Practice
-  ↓
-Build
-  ↓
-Experiment
-  ↓
-Improve
-  ↓
-Repeat 🔄
+📱 Mobile
+   ↓
+📲 Tablet
+   ↓
+💻 Desktop
 ```
 
-Certifications provide the foundation, while hands-on projects and experimentation turn that knowledge into practical skills.
+---
+
+# 🔐 Admin Features
+
+## 👨‍💼 Admin Login
+
+Administrators have access to management functionality separate from regular users.
 
 ---
 
-# 🌟 Why This Repository?
+## 🏗️ Stall Management
 
-This repository serves as a central place to maintain my:
+Admins can manage the stall inventory:
 
-**Certificates + Training + Workshops + Technical Practice + Learning Progress**
-
-It helps document my development journey from learning fundamental concepts to applying them through practical projects.
+* ➕ Add stalls
+* ✏️ Edit stall information
+* 🗑️ Delete stalls
+* 🔄 Update availability
 
 ---
 
-# 🔗 Connect With Me
+## 👥 User Management
+
+Administrators can monitor registered users and their activity within the system.
+
+---
+
+## 📋 Booking Management
+
+Admins can:
+
+* View bookings
+* Monitor booking status
+* Manage reservations
+* Track stall allocation
+
+---
+
+## 📊 Admin Dashboard
+
+The dashboard provides an overview of the stall management system.
+
+Possible dashboard metrics include:
+
+```text
+┌────────────────┐
+│ Total Stalls   │
+│      50        │
+└────────────────┘
+
+┌────────────────┐
+│ Available      │
+│      28        │
+└────────────────┘
+
+┌────────────────┐
+│ Booked         │
+│      22        │
+└────────────────┘
+
+┌────────────────┐
+│ Users          │
+│      35        │
+└────────────────┘
+```
+
+---
+
+# 🔄 User Workflow
+
+```text
+              👤 USER
+                 │
+                 ▼
+        ┌─────────────────┐
+        │ Register / Login│
+        └────────┬────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │ Browse Stalls   │
+        └────────┬────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │ Check Availability│
+        └────────┬────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │ Select Stall    │
+        └────────┬────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │ Confirm Booking │
+        └────────┬────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │ Booking Created │
+        └─────────────────┘
+```
+
+---
+
+# 🔄 Admin Workflow
+
+```text
+              👨‍💼 ADMIN
+                 │
+                 ▼
+          Admin Login
+                 │
+        ┌────────┼─────────┐
+        │        │         │
+        ▼        ▼         ▼
+      Stalls    Users    Bookings
+        │        │         │
+        ▼        ▼         ▼
+      Manage   Monitor   Manage
+        │        │         │
+        └────────┼─────────┘
+                 ▼
+          Dashboard View
+```
+
+---
+
+# 🛠️ Tech Stack
+
+| Layer                | Technology  |
+| -------------------- | ----------- |
+| 🎨 Frontend          | React.js    |
+| ⚡ Build Tool         | Vite        |
+| 💻 Styling           | CSS         |
+| ⚙️ Backend           | Java        |
+| 🚀 Backend Framework | Spring Boot |
+| 🗄️ Database         | MySQL       |
+| 🔧 Version Control   | Git         |
+| ☁️ Repository        | GitHub      |
+
+> **Note:** Spring Boot and MySQL depend on the backend/database configuration used in the project.
+
+---
+
+# 🏗️ Application Architecture
+
+```text
+                  ┌──────────────────┐
+                  │      User        │
+                  └────────┬─────────┘
+                           │
+                           ▼
+                  ┌──────────────────┐
+                  │ React Frontend   │
+                  │                  │
+                  │ Components       │
+                  │ Pages            │
+                  │ Forms            │
+                  └────────┬─────────┘
+                           │
+                           │ API Requests
+                           ▼
+                  ┌──────────────────┐
+                  │ Spring Boot API  │
+                  │                  │
+                  │ Authentication   │
+                  │ Stall Management │
+                  │ Booking Logic    │
+                  └────────┬─────────┘
+                           │
+                           ▼
+                  ┌──────────────────┐
+                  │      MySQL       │
+                  │                  │
+                  │ Users            │
+                  │ Stalls           │
+                  │ Bookings         │
+                  └──────────────────┘
+```
+
+---
+
+# 📂 Project Structure
+
+```text
+Online_Stall_Booking/
+│
+├── Stall_Management/
+│   │
+│   ├── public/
+│   │
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── ...
+│   │
+│   ├── register.css
+│   ├── vite.config.js
+│   └── package.json
+│
+├── README.md
+└── ...
+```
+
+---
+
+# 🚀 Installation & Setup
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone <your-repository-url>
+cd Online_Stall_Booking
+```
+
+---
+
+# 🎨 Frontend Setup
+
+Navigate to the frontend project:
+
+```bash
+cd Stall_Management
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the Vite development server:
+
+```bash
+npm run dev
+```
+
+The application will normally be available at:
+
+```text
+http://localhost:5173
+```
+
+---
+
+# ⚙️ Backend Setup
+
+If the project uses the Spring Boot backend:
+
+1. Open the backend project in your IDE.
+2. Configure the database connection.
+3. Make sure MySQL is running.
+4. Start the Spring Boot application.
+
+Typical backend configuration may look like:
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/stall_management
+spring.datasource.username=root
+spring.datasource.password=your_password
+```
+
+> Update the values according to your local MySQL configuration.
+
+---
+
+# 🗄️ Database
+
+The application can use **MySQL** for persistent storage.
+
+Typical entities include:
+
+```text
+Users
+  │
+  ├── User ID
+  ├── Name
+  ├── Email
+  └── Password
+       
+Stalls
+  │
+  ├── Stall ID
+  ├── Stall Number
+  ├── Location
+  └── Availability
+
+Bookings
+  │
+  ├── Booking ID
+  ├── User ID
+  ├── Stall ID
+  ├── Booking Date
+  └── Status
+```
+
+---
+
+# 📸 Screenshots
+
+Add screenshots of the application here to make the GitHub repository more attractive.
+
+## 🏠 Home Page
+
+```text
+[ INSERT HOME PAGE SCREENSHOT ]
+```
+
+## 🏬 Stall Listing
+
+```text
+[ INSERT STALL LISTING SCREENSHOT ]
+```
+
+## 📋 Booking Page
+
+```text
+[ INSERT BOOKING SCREENSHOT ]
+```
+
+## 👨‍💼 Admin Dashboard
+
+```text
+[ INSERT ADMIN DASHBOARD SCREENSHOT ]
+```
+
+---
+
+# 💡 Key Highlights
+
+### ⚡ Digital Booking
+
+Move stall reservations from manual processes to a centralized online platform.
+
+### 🏬 Stall Availability
+
+Provide users with a clear view of available and booked stalls.
+
+### 👨‍💼 Admin Control
+
+Give administrators centralized control over stalls, users, and bookings.
+
+### 📱 Responsive UI
+
+Make the platform accessible across different devices.
+
+### 🧩 Full-Stack Architecture
+
+Connect a modern React frontend with a backend API and persistent database.
+
+---
+
+# 📈 Future Enhancements
+
+The platform can be extended with:
+
+* [ ] 💳 Online payment gateway
+* [ ] 📧 Email booking confirmation
+* [ ] 📱 SMS notifications
+* [ ] 🗺️ Interactive event map
+* [ ] 💰 Dynamic stall pricing
+* [ ] 📊 Advanced analytics dashboard
+* [ ] 📄 Booking invoice generation
+* [ ] 🎟️ Digital booking confirmation
+* [ ] 🔔 Real-time booking notifications
+* [ ] 🔐 JWT-based authentication
+* [ ] 🏢 Multiple event management
+* [ ] 📅 Event-wise stall availability
+* [ ] 🔎 Advanced stall filtering
+* [ ] 📱 Improved mobile experience
+
+---
+
+# 🎓 What I Learned
+
+Through this project, I gained practical experience with:
+
+* React component development
+* Frontend state management
+* Responsive web design
+* Form handling
+* User authentication concepts
+* CRUD-based application workflows
+* Backend API integration
+* Database-driven applications
+* Admin dashboard design
+* Full-stack application architecture
+
+---
+
+# 🌟 Project Highlights
+
+| Area               | Implementation         |
+| ------------------ | ---------------------- |
+| 🎨 Frontend        | React.js               |
+| ⚡ Development      | Vite                   |
+| 🎯 UI              | Responsive CSS         |
+| ⚙️ Backend         | Java / Spring Boot     |
+| 🗄️ Database       | MySQL                  |
+| 👥 Users           | Registration & Login   |
+| 🏬 Stalls          | CRUD Management        |
+| 📋 Bookings        | Reservation Management |
+| 👨‍💼 Admin        | Dashboard & Controls   |
+| 🔧 Version Control | Git & GitHub           |
+
+---
+
+# 👨‍💻 Author
+
+## Dhanush Gopi Kavala
+
+**Software Engineer Enthusiast | Full-Stack Developer | AI/ML Enthusiast**
+
+I enjoy building practical software applications that combine clean user experiences with useful backend functionality.
 
 <p align="center">
 
@@ -354,12 +574,20 @@ It helps document my development journey from learning fundamental concepts to a
 
 ---
 
+# 📜 License
+
+This project is intended for educational and portfolio purposes.
+
+---
+
 <p align="center">
 
-### 🚀 Learn. Build. Improve. Repeat.
+### 🏬 Book Smarter. Manage Better. 🚀
 
-**A continuous journey of learning, experimentation, and software development.**
+<strong>Online Stall Booking System</strong>
 
-⭐ If you find this repository useful, consider giving it a star!
+</p>
 
+<p align="center">
+⭐ If you like this project, consider starring the repository!
 </p>
