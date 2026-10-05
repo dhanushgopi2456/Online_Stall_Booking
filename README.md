@@ -589,5 +589,5 @@ This project is intended for educational and portfolio purposes.
 </p>
 
 <p align="center">
-⭐ If you like this project, consider starring the repository!
+⭐ **Star the repository if you like the project**
 </p>
