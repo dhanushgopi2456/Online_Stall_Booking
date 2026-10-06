@@ -587,4 +587,4 @@ This project is intended for educational and portfolio purposes.
 <strong>Online Stall Booking System</strong>
 
 </p>
-⭐ **Star the repository if you like the project**
+⭐ Star the repository if you like the project
